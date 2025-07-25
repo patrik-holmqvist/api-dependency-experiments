@@ -1,3 +1,25 @@
+## Repo Analysis Tool
+
+This tool analyzes a GitHub repository and outputs a Mermaid diagram of Python files.
+
+### Installation
+
+```bash
+pip install -r requirements.txt
+```
+
+### Usage
+
+```bash
+python repo_analysis.py
+```
+Enter the GitHub repo URL when prompted.
+
+### Output
+
+You’ll get a Mermaid diagram listing all Python files in the repo.
+
+
 # API Dependency Experiments
 
 This repository explores techniques for analyzing and visualizing API usage and dependency flows within a codebase. The approach focuses on identifying APIs, ranking their importance, and visually mapping dependencies for clarity and architectural insight.
